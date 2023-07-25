@@ -1,0 +1,15 @@
+{
+	"components": [
+		{
+			"id": "displaynotification",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": true,
+			"name": "sap.custom.plugin.testplugin.notification.displaynotification.displaynotification",
+			"propertyEditor": "sap.custom.plugin.testplugin.notification.displaynotification.displaynotification.builder.PropertyEditor",
+			"i18n": "sap.custom.plugin.testplugin.notification.displaynotification.displaynotification.i18n.i18n",
+            "productionProcessEnabled": false,
+           "productionProcessTitle": "displaynotification",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER","OTHER","MONITOR"]
+		}   
+	]
+}
